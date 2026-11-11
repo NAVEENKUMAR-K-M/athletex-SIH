@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "622606572313",
+    "project_id": "sai-performance-app",
+    "storage_bucket": "sai-performance-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:622606572313:android:d2d51dcf85b9efcea04388",
+        "android_client_info": {
+          "package_name": "com.example.athletex"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "622606572313-6uvde89q1muc7d7n99k61pka4gnno31d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXbcrhqYAYyJp88ZVZntXukLQw6LSrH3U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "622606572313-6uvde89q1muc7d7n99k61pka4gnno31d.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "622606572313-0ugcsbud7hg6c4g5au597ndphdnul50l.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.athletex"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

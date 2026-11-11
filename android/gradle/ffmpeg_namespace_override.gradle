@@ -1,0 +1,15 @@
+// android/gradle/ffmpeg_namespace_override.gradle
+subprojects { sub ->
+    if (sub.name.contains('ffmpeg_kit_flutter_min_gpl')) {
+        sub.afterEvaluate {
+            try {
+                def andext = sub.extensions.findByName('android')
+                if (andext != null) {
+                    if (!andext.hasProperty('namespace') || andext.namespace == null || andext.namespace.toString().trim().isEmpty()) {
+                        andext.namespace = 'com.arthenica.ffmpeg_kit_flutter_min_gpl'
+                    }
+                }
+            } catch (ignored) { }
+        }
+    }
+}
